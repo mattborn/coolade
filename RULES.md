@@ -1,0 +1,6 @@
+- Use as few lines of code as possible while preserving features
+- Sort object keys and CSS properties alphabetically
+- In HTML and JSX markup, use id to name tags when there is exactly one of that element
+- In CSS, use rems only when the value is whole or ends in .25, .5, .75
+- Use one-liners where possible while keeping code readable
+- Use latest JS features like arrow functions, optional chaining, etc.
