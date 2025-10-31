@@ -1,6 +1,9 @@
+- CRITICAL: Before running git reset, git restore, or git clean commands, ask before discarding uncommitted changes
 - Use as few lines of code as possible while preserving features
 - Sort object keys and CSS properties alphabetically
 - In HTML and JSX markup, use id to name tags when there is exactly one of that element
 - In CSS, use rems only when the value is whole or ends in .25, .5, .75
+- In CSS, avoid unnecessary specificity - use single class selectors when possible (e.g., `.button` not `nav .button`)
 - Use one-liners where possible while keeping code readable
-- Use latest JS features like arrow functions, optional chaining, etc.
+- Use latest JS features like arrow functions, condition chaining, etc.
+- Prefer createElement() and appendChild() over innerHTML, insertAdjacentHTML(), and template literals
