@@ -1,0 +1,23 @@
+Commands that must NEVER be added to allow or deny — always prompt for approval.
+
+- `bash` — shell execution, bypasses all guardrails
+- `chmod` — permission changes
+- `chown` — ownership changes
+- `curl` — can POST/PUT/DELETE to any endpoint
+- `eval` — arbitrary execution
+- `gh` — can close PRs/issues, delete repos, post comments
+- `exec` — arbitrary execution
+- `mv` — file relocation (use git mv instead)
+- `node` — general-purpose runtime, can execute arbitrary code
+- `npx` — downloads and runs arbitrary packages
+- `open` — launches applications
+- `python3` — general-purpose runtime, can execute arbitrary code
+- `rm` — file deletion
+- `rsync` — remote file sync, can delete
+- `ruby` — general-purpose runtime, can execute arbitrary code
+- `scp` — remote file transfer
+- `sh` — shell execution, bypasses all guardrails
+- `ssh` — remote access
+- `sudo` — privilege escalation
+- `wget` — can overwrite files, execute scripts
+- `zsh` — shell execution, bypasses all guardrails

@@ -1,0 +1,44 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(brew *)",
+      "Bash(cat *)",
+      "Bash(cp -n *)",
+      "Bash(diff *)",
+      "Bash(du *)",
+      "Bash(file *)",
+      "Bash(find *)",
+      "Bash(gh api *)",
+      "Bash(gh repo view *)",
+      "Bash(git *)",
+      "Bash(grep *)",
+      "Bash(head *)",
+      "Bash(jq *)",
+      "Bash(ls)",
+      "Bash(ls *)",
+      "Bash(mkdir *)",
+      "Bash(npm *)",
+      "Bash(pdftotext *)",
+      "Bash(sort *)",
+      "Bash(stat *)",
+      "Bash(tail *)",
+      "Bash(uniq *)",
+      "Bash(wc *)",
+      "Bash(which *)",
+      "Glob",
+      "Grep",
+      "mcp__context7__query-docs",
+      "mcp__context7__resolve-library-id",
+      "Read",
+      "WebFetch",
+      "WebSearch"
+    ],
+    "deny": [
+      "Bash(git clean *)",
+      "Bash(git push)",
+      "Bash(git push *)",
+      "Bash(git reset --hard)",
+      "Bash(git reset --hard *)"
+    ]
+  }
+}

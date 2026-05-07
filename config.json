@@ -2,5 +2,8 @@
   "paths": [
     "~/.claude/CLAUDE.md",
     "~/.codex/AGENTS.md"
+  ],
+  "settings": [
+    "~/.claude/settings.json"
   ]
 }
