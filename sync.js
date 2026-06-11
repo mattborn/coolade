@@ -29,7 +29,8 @@ const expand = path =>
         const dest = expand(target)
         await mkdir(dirname(dest), { recursive: true })
         const existing = JSON.parse(await readFile(dest, 'utf8').catch(() => '{}'))
-        await writeFile(dest, JSON.stringify({ ...existing, ...shared }, null, 2))
+        const merged = { ...existing, ...shared, permissions: { ...existing.permissions, ...shared.permissions } }
+        await writeFile(dest, JSON.stringify(merged, null, 2))
         console.log(`settings.json → ${dest}`)
       }),
     )

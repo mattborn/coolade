@@ -5,5 +5,6 @@
 - In CSS, use rems only when the value is whole or ends in .25, .5, .75
 - In CSS, avoid unnecessary specificity - use single class selectors when possible (e.g., `.button` not `nav .button`)
 - Use one-liners where possible while keeping code readable
-- Use latest JS features like arrow functions, condition chaining, etc.
+- Use latest JS features like arrow functions, optional chaining, etc.
 - Prefer createElement() and appendChild() over innerHTML, insertAdjacentHTML(), and template literals
+- Always use Context7 MCP when I need library/API documentation, code generation, setup or configuration steps without me having to explicitly ask
